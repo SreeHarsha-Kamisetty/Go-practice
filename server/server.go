@@ -19,6 +19,6 @@ func handlerFunc(w http.ResponseWriter, r *http.Request){
 }
 
 func about(w http.ResponseWriter, r *http.Request){
-	fmt.Print(r.Method);
+	fmt.Println(r.Method);
 	fmt.Fprintf(w,"This is about page")
 }
